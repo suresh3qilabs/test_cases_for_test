@@ -42,7 +42,7 @@ public class BaseClass {
       	String webDri = System.getProperty("webDri");
         System.out.println(webDri);
         if(webDri.contains("geckodriver")) {
-        	System.setProperty("webdriver.geckodriver.driver", webDri);
+        	System.setProperty("webdriver.gecko.driver", webDri);
         	this.driver = new FirefoxDriver();
         }else {
         	System.setProperty("webdriver.chrome.driver", webDri);
