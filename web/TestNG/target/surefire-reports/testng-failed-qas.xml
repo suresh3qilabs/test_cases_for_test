@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAF FFCRM">
+  <test name="Gherkin-QAF-CucumberSTEP">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Edit Account")||testngMethod.getMethodName().equalsIgnoreCase("Delete Account")||testngMethod.getMethodName().equalsIgnoreCase("Create An Account")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="scenario.file.loc" value="scenarios/"/>
+    <parameter name="step.provider.sharedinstance" value="true"/>
+    <parameter name="step.provider.pkg" value="com.ffcrm.steps"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- Gherkin-QAF-CucumberSTEP -->
+</suite> <!-- QAF FFCRM -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FFCRM]">
+  <listeners>
+    <listener class-name="utils.CustomReporter"/>
+  </listeners>
+  <test thread-count="3" verbose="0" name="AccountsModule(failed)">
+    <classes>
+      <class name="com.ffcrm.tests.AccountsModule">
+        <methods>
+          <include name="setup"/>
+          <include name="createAccount" invocation-numbers="0"/>
+          <include name="deleteAccount"/>
+          <include name="editAccount" invocation-numbers="0"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- com.ffcrm.tests.AccountsModule -->
+    </classes>
+  </test> <!-- AccountsModule(failed) -->
+</suite> <!-- Failed suite [FFCRM] -->

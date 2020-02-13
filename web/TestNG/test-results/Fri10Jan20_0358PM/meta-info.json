@@ -1,0 +1,13 @@
+{
+  "name": "QAF FFCRM",
+  "status": "fail",
+  "tests": [
+    "GherkinQAFCucumberSTEP"
+  ],
+  "total": 3,
+  "pass": 0,
+  "fail": 3,
+  "skip": 0,
+  "startTime": 1578652118961,
+  "endTime": 1578652154959
+}

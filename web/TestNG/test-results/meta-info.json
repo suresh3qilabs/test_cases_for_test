@@ -1,0 +1,44 @@
+{
+  "reports": [
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0401PM",
+      "startTime": 1578652288033
+    },
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0359PM",
+      "startTime": 1578652162290
+    },
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0358PM",
+      "startTime": 1578652118961
+    },
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0357PM",
+      "startTime": 1578652043420
+    },
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0352PM",
+      "startTime": 1578651747583
+    },
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0351PM",
+      "startTime": 1578651675540
+    },
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0349PM",
+      "startTime": 1578651541894
+    },
+    {
+      "name": "QAF FFCRM",
+      "dir": "test-results/Fri10Jan20_0348PM",
+      "startTime": 1578651490557
+    }
+  ]
+}

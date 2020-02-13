@@ -1,0 +1,49 @@
+{
+  "total": 3,
+  "pass": 0,
+  "fail": 3,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "capabilities": "{moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, moz:headless=false, platform=ANY, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=72.0.1, platformVersion=10.0, moz:processID=5196, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:profile=C:\\Users\\Dell\\AppData\\Local\\Temp\\rust_mozprofileeSZIbH, rotatable=false, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, version=, moz:accessibilityChecks=false, moz:shutdownTimeout=60000, moz:buildID=20200107212822, cssSelectorsEnabled=true, moz:webdriverClick=true}",
+      "sessionId": "bf8295ad-9d0f-4616-be7e-2fcbd2e92931",
+      "platform": "ANY"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Jan-2019 19:18:14"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "scenarios/",
+      "baseurl": "https://glacial-savannah-53106.herokuapp.com/login",
+      "step.provider.sharedinstance": "true",
+      "step.provider.pkg": "com.ffcrm.steps"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_221",
+      "os.arch": "amd64",
+      "host": "DESKTOP-11MOEHU",
+      "os.name": "Windows 10",
+      "user.name": "Dell",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1578652134174,
+  "endTime": 1578652154933
+}
