@@ -24,8 +24,6 @@ public class AccountsModule extends BaseClass {
 			put("email", "test@3qi.com");
 			put("address", "test address");
 		}};*/
-
-
 		String category = tcData.get("category");
 		String phone = tcData.get("phone");
 		String email = tcData.get("email");

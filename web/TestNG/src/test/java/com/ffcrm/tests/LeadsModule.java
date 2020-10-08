@@ -39,7 +39,7 @@ public class LeadsModule extends BaseClass {
 
     @Test(dataProvider = "excelData", groups = {"Smoke Test"})
     public void editLead(HashMap<String, String> tcData) throws InterruptedException{
-        System.out.println("\n********************** Editing lead: " + firstName + " " + lastName + " **********************\n");
+        System.out.println("\n******************+************* Editing lead: " + firstName + " " + lastName + " **************+******************\n");
 
         CreateLeadsPage objCreateLeadsPage = new CreateLeadsPage(driver);
         EditLeadsPage objEditLeadsPage = new EditLeadsPage(driver);

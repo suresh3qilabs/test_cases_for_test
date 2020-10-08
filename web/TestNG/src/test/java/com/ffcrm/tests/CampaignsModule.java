@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
-
 public class CampaignsModule extends BaseClass{
 	String name = "test" + Utility.getRandomNumber();
 
@@ -107,7 +106,7 @@ public class CampaignsModule extends BaseClass{
 			System.out.println("Pass: Account " + name + " has been successfully deleted!");
 		}
 		else{
-			Assert.fail("Fail: Failed to find the error message: Couldn't find any campaigns matching  " + name +" in the search results.\nAccount " + name + " is not deleted!");
+			Assert.fail("Fail:- Failed to find the error message: Couldn't find any campaigns matching  " + name +" in the search results.\nAccount " + name + " is not deleted!");
 		}
 	}
 }

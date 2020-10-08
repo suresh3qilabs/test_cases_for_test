@@ -54,7 +54,6 @@ public class BaseClass {
 //        driver.get("https://glacial-savannah-53106.herokuapp.com/accounts");
 
         login();
-
     }
 
     public void login() {
@@ -106,4 +105,3 @@ public class BaseClass {
         return new Object [] {excelData.get(testcaseName.getName())};
     }
 }
-

@@ -7,7 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SearchAccountPage {
     WebDriver driver;
-
     @FindBy(xpath="//input[@placeholder=\"Search accounts\"]")
     public WebElement searchTextBox;
 
@@ -21,5 +20,4 @@ public class SearchAccountPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
 }
