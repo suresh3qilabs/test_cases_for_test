@@ -104,10 +104,10 @@ public class LeadsModule extends BaseClass {
         objSearchLeadsPage.searchTextBox.sendKeys(firstName);
         Thread.sleep(2000);
         if (objSearchLeadsPage.leadNotFoundError.getText().contains(errorMessage)) {
-            System.out.println("Pass:- Account " + firstName + " " + lastName + " has been successfully deleted!");
+            System.out.println("Pass:-: Account " + firstName + " " + lastName + " has been successfully deleted!");
         }
         else{
-            Assert.fail("Fail:- Failed to find the error message: Couldn't find any accounts matching  " + firstName + " " + lastName +" in the search results.\nAccount " + firstName + " " + lastName + " is not deleted!");
+            Assert.fail("Fail:-: Failed to find the error message: Couldn't find any accounts matching  " + firstName + " " + lastName +" in the search results.\nAccount " + firstName + " " + lastName + " is not deleted!");
         }
     }
 }
