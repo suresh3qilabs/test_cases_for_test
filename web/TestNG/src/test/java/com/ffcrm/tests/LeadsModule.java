@@ -39,7 +39,7 @@ public class LeadsModule extends BaseClass {
 
     @Test(dataProvider = "excelData", groups = {"Smoke Test"})
     public void editLead(HashMap<String, String> tcData) throws InterruptedException{
-        System.out.println("\n******************+************* Editing lead: " + firstName + " " + lastName + " **************+******************\n");
+        System.out.println("\n*********************** Editing lead: " + firstName + " " + lastName + " ************************\n");
 
         CreateLeadsPage objCreateLeadsPage = new CreateLeadsPage(driver);
         EditLeadsPage objEditLeadsPage = new EditLeadsPage(driver);
@@ -104,10 +104,10 @@ public class LeadsModule extends BaseClass {
         objSearchLeadsPage.searchTextBox.sendKeys(firstName);
         Thread.sleep(2000);
         if (objSearchLeadsPage.leadNotFoundError.getText().contains(errorMessage)) {
-            System.out.println("Pass: Account " + firstName + " " + lastName + " has been successfully deleted!");
+            System.out.println("Pass:- Account " + firstName + " " + lastName + " has been successfully deleted!");
         }
         else{
-            Assert.fail("Fail: Failed to find the error message: Couldn't find any accounts matching  " + firstName + " " + lastName +" in the search results.\nAccount " + firstName + " " + lastName + " is not deleted!");
+            Assert.fail("Fail:- Failed to find the error message: Couldn't find any accounts matching  " + firstName + " " + lastName +" in the search results.\nAccount " + firstName + " " + lastName + " is not deleted!");
         }
     }
 }
