@@ -9,10 +9,6 @@ Scenario: TestScenario1
 	Then I click the search button "btnG"
 	Then I close the browser
 	
-	
-	
-	
-	
 Scenario: TestScenario1
         Given I run with Watir
 	When I open a new browser
