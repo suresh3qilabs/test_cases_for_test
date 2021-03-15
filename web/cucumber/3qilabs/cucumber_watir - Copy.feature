@@ -13,17 +13,6 @@ Feature: Test Cucumber script
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 Scenario: TestScenario1
         Given I run with Watir
 	When I open a new browser
