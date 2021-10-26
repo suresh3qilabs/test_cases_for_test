@@ -25,14 +25,14 @@ For any inquiry or need additional information, please contact support-qaf@infos
 
 <suite name="QAF FFCRM" verbose="0">
     <!--************************ To Run Cucumber ************************-->
-    <!-- <test name="Gherkin-QAF-CucumberSTEP">
+    <test name="Gherkin-QAF-CucumberSTEP">
         <parameter name="step.provider.pkg" value="com.ffcrm.steps"/>
         <parameter name="step.provider.sharedinstance" value="true"/>
         <parameter name="scenario.file.loc" value="scenarios/"/>
         <classes>
             <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
         </classes>
-    </test> -->
+    </test>
 
     <!--************************ To Run QAF BDD ************************-->
    <!-- <test name="Gherkin-QAF-CucumberSTEP">
@@ -45,7 +45,7 @@ For any inquiry or need additional information, please contact support-qaf@infos
     </test>
 -->
     <!--************************ To run Page Object Model Without BDD ************************-->
-    <test name="AccountsModule">
+    <!--<test name="AccountsModule">
         <groups>
             <run>
                 <include name="Smoke"></include>
@@ -60,7 +60,7 @@ For any inquiry or need additional information, please contact support-qaf@infos
                 </methods>
             </class>
         </classes>
-    </test>
+    </test>-->
 
     <!--************************ To Run Cucumber without QAF(Using cucumber test runner) ************************-->
     <!--<test name="Accounts Module" enabled="true">
