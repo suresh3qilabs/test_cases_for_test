@@ -33,7 +33,8 @@ public class LoginStepDefinition{
 	       driver = new ChromeDriver();
 
 	 }
-	 driver.get("https://glacial-savannah-53106.herokuapp.com/login");
+	 //driver.get("https://glacial-savannah-53106.herokuapp.com/login");
+	 driver.get("http://ffcrm.awetest.com");
 	 }
 
 
